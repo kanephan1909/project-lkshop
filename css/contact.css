@@ -1,0 +1,114 @@
+.nav-border{
+    border-top: 1px solid #8a8a8a;
+}
+
+#page-contact{
+    max-width: 1600px;
+    height: 90%;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.container{
+    border: 1px solid #a3a3a3;
+    padding: 20px;
+}
+
+
+.contact-title{
+    width: 100%;
+    border-bottom: 1px solid #a3a3a3;
+    padding: 20px;
+}
+
+.contact-title h3{
+    padding-bottom: 10px;
+    font-size: 1.9rem;
+}
+
+.contact-title p{
+    font-size: 0.9rem;
+}
+
+.contact-item{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.row li{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row i{
+    font-size: 1.9rem;
+}
+
+.row span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.row p{
+    font-size: 0.9rem;
+}
+
+.contact-comment{
+    width: 100%;
+    margin: 15px auto;
+}
+
+.form-comment{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.form-comment label{
+    padding-bottom: 10px ;
+}
+
+.input-control{
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    box-shadow: none;
+    min-height: 40px;
+    margin: 0 0 20px;
+}
+
+.contact-btn{
+    width: 100%;
+    height: 50px;
+}
+
+.contact-btn a{
+    background-color: #f01b1b;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    float: right;
+}
+
+.contact-btn a:hover{
+    background-color: #740000;
+    opacity: 0.9;
+    animation: all ease-in 0.3s;
+}
